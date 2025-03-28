@@ -28,7 +28,7 @@ ENTITY_DAMAGE = {
     'Enemy1': 1,
     'Enemy1Shoot': 20,
     'Enemy2': 1,
-    'Enemy2Shoot': 15,
+    'Enemy2Shoot': 50,
 }
 EVENT_ENEMY = pygame.USEREVENT + 1
 EVENT_TIMEOUT = pygame.USEREVENT + 2
@@ -52,8 +52,8 @@ ENTITY_HEALTH = {
     'Player2Shoot': 1,
     'Enemy1Shoot': 1,
     'Enemy2Shoot': 1,
-    'Enemy2': 1,
-    'Enemy1': 1,
+    'Enemy2': 100,
+    'Enemy1': 75,
 
 }
 ENTITY_SCORE = {
@@ -98,7 +98,7 @@ ENTITY_SPEED = {
     'Player1Shoot': 3,
     'Player2Shoot': 2,
 
-    'Enemy1': 1,
+    'Enemy1': 2,
     'Enemy2': 1,
 
     'Enemy1Shoot': 5,
@@ -106,10 +106,10 @@ ENTITY_SPEED = {
 }
 
 ENTITY_SHOT_DELAY = {
-    'Player1': 20,
+    'Player1': 15,
     'Player2': 15,
     'Enemy1': 100,
-    'Enemy2': 200,
+    'Enemy2': 250,
 
 }
 
