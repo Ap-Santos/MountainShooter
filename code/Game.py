@@ -25,9 +25,3 @@ class Game:
                 quit()  # end pygame
             else:
                 pass
-
-
-
-
-
-
