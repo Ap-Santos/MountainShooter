@@ -16,6 +16,11 @@ ENTITY_DAMAGE = {
     'Level1Bg4': 0,
     'Level1Bg5': 0,
     'Level1Bg6': 0,
+    'Level2Bg0': 0,
+    'Level2Bg1': 0,
+    'Level2Bg2': 0,
+    'Level2Bg3': 0,
+    'Level2Bg4': 0,
     'Player1': 1,
     'Player1Shoot': 25,
     'Player2': 1,
@@ -26,6 +31,7 @@ ENTITY_DAMAGE = {
     'Enemy2Shoot': 15,
 }
 EVENT_ENEMY = pygame.USEREVENT + 1
+EVENT_TIMEOUT = pygame.USEREVENT + 2
 
 ENTITY_HEALTH = {
     'Level1Bg0': 999,
@@ -58,6 +64,11 @@ ENTITY_SCORE = {
     'Level1Bg4': 0,
     'Level1Bg5': 0,
     'Level1Bg6': 0,
+    'Level2Bg0': 0,
+    'Level2Bg1': 0,
+    'Level2Bg2': 0,
+    'Level2Bg3': 0,
+    'Level2Bg4': 0,
     'Player1': 0,
     'Player1Shoot': 0,
     'Player2': 0,
@@ -75,6 +86,12 @@ ENTITY_SPEED = {
     'Level1Bg4': 4,
     'Level1Bg5': 5,
     'Level1Bg6': 6,
+
+    'Level2Bg0': 0,
+    'Level2Bg1': 1,
+    'Level2Bg2': 2,
+    'Level2Bg3': 3,
+    'Level2Bg4': 4,
 
     'Player1': 3,
     'Player2': 3,
@@ -115,7 +132,12 @@ PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
                     'Player2': pygame.K_d}
 PLAYER_KEY_SHOOT = {'Player1': pygame.K_RETURN,
                     'Player2': pygame.K_SPACE}
+# P
+SPAWN_TIME = 2000
 
+# T
+TIMEOUT_STEP= 100
+TIMEOUT_LEVEL = 20000
 # W
 WIN_WIDTH = 576
 WIN_HEIGHT = 324
